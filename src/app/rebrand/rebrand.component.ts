@@ -65,8 +65,14 @@ import { Component, OnInit } from '@angular/core';
                 <hr>
                 <div class="row">
                   <div class="col-md-12">
-                    <label for="formFile" class="form-label">HOME PICTURE</label>
+                    <label for="formFile" class="form-label">BACKGROUND PICTURE</label>
                     <input class="form-control" (change)="onselectFile($event)" type="file" id="formFile2">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <label for="exampleFormControlTextarea1" class="form-label">MESSAGE</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
                 </div>
 
